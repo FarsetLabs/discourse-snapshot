@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Farset Labs Search</ShortName>
+  <Description>Search for posts on Farset Labs</Description>
+  <Tags>discourse forum</Tags>
+    <Image type="image/png">https://discourse.farsetlabs.org.uk/uploads/default/optimized/1X/0e2919299ecfbb799b4448db95a5a49f041de3db_2_32x32.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://discourse.farsetlabs.org.uk/opensearch.xml"/>
+  <Url type="text/html" template="https://discourse.farsetlabs.org.uk/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>
